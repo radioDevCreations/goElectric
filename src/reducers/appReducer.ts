@@ -1,7 +1,7 @@
 import { AnyAction } from "redux";
 import { APP_CHANGE_PAGE } from "../actions/appActions";
 
-const appReducer = (state = [], action: AnyAction) => {
+export const appReducer = (state = [], action: AnyAction) => {
   switch (action.type) {
     case APP_CHANGE_PAGE:
       return action.payload;

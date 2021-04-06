@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Provider store = {store}>
     <div className="app">
-      <Header />
+      <Header chosenPage = {1}/>
       <Main />
       <Footer />
     </div>
