@@ -1,3 +1,8 @@
-main {
+@import '../../styleHelpers/variables.scss';
+
+.app-main {
+  position: absolute;
+  top: $header-footer-height;
+  left: 0;
   color: red;
 }

@@ -9,7 +9,7 @@ export interface HeaderProps {
 
 const Header: FC<HeaderProps> = (props) => {
   return (
-    <header>
+    <header className="app-header">
       <AppLogo/>
       <AppMenu chosenPage = {props.chosenPage}/>
     </header>

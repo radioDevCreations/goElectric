@@ -7,12 +7,12 @@ export interface AppMenuProps {
 const AppMenu: FC<AppMenuProps> = (props) => {
   return (
     <nav>
-      <ul className = "appMenu">
-        <li>Home</li>
-        <li>Solutions</li>
-        <li>Features</li>
-        <li>Feedback</li>
-        <li>Contact us</li>
+      <ul className = "app-menu-list">
+        <li className = "app-menu-list">Home</li>
+        <li className = "app-menu-list">Solutions</li>
+        <li className = "app-menu-list">Features</li>
+        <li className = "app-menu-list">Feedback</li>
+        <li className = "app-menu-list">Contact us</li>
       </ul>
     </nav>
   );

@@ -1,3 +1,11 @@
-footer {
-  color: green;
+@import '../../styleHelpers/variables.scss';
+
+.app-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $header-footer-height;
+  color: white;
+  background-color: green;
 }
