@@ -1,4 +1,6 @@
-const AppLogo = () => {
+import {FC} from 'react';
+
+const AppLogo: FC = () => {
     return ( 
         <div>
             logo

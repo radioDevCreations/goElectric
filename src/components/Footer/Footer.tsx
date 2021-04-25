@@ -1,6 +1,7 @@
+import {FC} from 'react';
 import "./Footer.scss";
 
-const Footer = () => {
+const Footer: FC = () => {
   return <footer>Footer</footer>;
 };
 
