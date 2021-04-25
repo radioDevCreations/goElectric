@@ -1,18 +1,20 @@
+import {FC} from 'react';
+
 export interface AppMenuProps {
   chosenPage: number;
 }
 
-const AppMenu: React.SFC<AppMenuProps> = (props) => {
+const AppMenu: FC<AppMenuProps> = (props) => {
   return (
-    <menu>
-      <ul>
+    <nav>
+      <ul className = "appMenu">
         <li>Home</li>
         <li>Solutions</li>
         <li>Features</li>
         <li>Feedback</li>
         <li>Contact us</li>
       </ul>
-    </menu>
+    </nav>
   );
 };
 
